@@ -1,5 +1,5 @@
 # NSPanel-shaf
-NSPanel-shaf is based on marcfagers original work https://github.com/marcfager/nspanel-mf and MarkWattTech update https://github.com/MarkWattTech/MWT-NSPanel
+NSPanel-shaf is based on marcfagers original work and MarkWattTech update.
 
 Thank you to @MarkWattTech for putting a Tutorial togther on how to flash the the Sonoff NSPanel (https://youtu.be/p-AK4o5jOSI).  I have taken what he has put togther and simplified the code for easier editing.   Addtioanlly, I also have created a new HMI to add addtioanl items to the the Main Page.   
 
@@ -8,5 +8,23 @@ We will work on getting a video upload to our youtube Channel https://www.youtub
 
 ## Credits
 
+marcfagers - https://github.com/marcfager/nspanel-mf
+MarkWattTech https://github.com/MarkWattTech/MWT-NSPanel
 
+## Usage
+The weather entities, media entities, lights etc. are selected in the ESPHome config. You can navigate between screens by using a swipe gesture on the screen (left or right). The code is prepared for swipe up and down as well. The media player is on the left side, and the lights on the right side.
+The config that is not done in ESPHome is done in Home Assistant.
 
+In the example config a big part of the config is done in the ESPHome YAML file. If you prefer to set-and-forget it, you can replace the media entities, weather entities, light entities etc. with HA templates or input_text fields. That way you can re-configure everything directly from Home Assistant.
+
+Any information and/or code found here is used on your own risk.
+
+## Installation
+1. Install and configure ESPHome.
+2. Prepare the NSPanel for flashing (see instructions in the forum pages linked above).
+3. Download the ESPHome sketch and adjust to your needs. Flash it to the NSPanel. Pay special attention to the _tft_url_ parameter and ensure it is accessible by the NSPanel.
+4. Download the HMI file and save it to the _tft_url_ location.
+5. Add the unit to Home Assistant through the ESPHome integration.
+6. Run the _esphome.nspanel_upload_tft_ service from Home Assistant. This will download the HMI to the NSPanel. Please note that this will block the ESPHome connection during the update. Follow the progress on the HMI screen. When the HMI is installed, reboot the unit.
+7. Configure the unit in Home Assistant to add actions to the buttons etc. it exposes.
+8. Enjoy!
