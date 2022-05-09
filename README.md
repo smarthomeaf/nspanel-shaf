@@ -29,8 +29,10 @@ Any information and/or code found here is used on your own risk.
 7. Use steps in the Configuration Section below to customize what is being displayed in the LCD
 
 ## Configuration
-- In the ESPHome Addon Edit the NSPanel Device <img width="611" alt="image" src="https://user-images.githubusercontent.com/105226208/167456356-8dd6e3a5-9308-4008-a3f3-abe982b1d067.png">
-- Modify the highlighted section with your entities. ![image](https://user-images.githubusercontent.com/105226208/167456710-25dd0078-c7a3-4e26-999c-14960620efa5.png)
+- In the ESPHome Addon Edit the NSPanel Device 
+<img width="611" alt="image" src="https://user-images.githubusercontent.com/105226208/167456356-8dd6e3a5-9308-4008-a3f3-abe982b1d067.png">
+- Modify the highlighted section with your entities. 
+- ![image](https://user-images.githubusercontent.com/105226208/167456710-25dd0078-c7a3-4e26-999c-14960620efa5.png)
 - Validate the Config
 - Install Config Wirelessly
 
