@@ -22,10 +22,10 @@ Any information and/or code found here is used on your own risk.
 ## Installation
 1. Install and configure ESPHome.   Make sure to use the new ESPHome from teh ESPhome repo (https://esphome.io/changelog/2022.2.0.html) rather than Community Repo.
 3. Prepare the NSPanel for flashing (see MarkWattTech Video https://youtu.be/p-AK4o5jOSI).
-4. Ensure that the ESPhome Secrets are configured with 
-5. Flash the NSPanel with **nspanel.yaml**. Pay special attention to the _tft_url_ parameter and ensure it is accessible by the NSPanel.  Use the **nspanel.yaml** as is" for instalation.  We will edit in a bit.
+4. Ensure that the ESPhome Secrets are configured with the appropriate SSID, Password, and TFT path.  Use the **secrets.yaml** in repo as an example.    
+5. Flash the NSPanel with **nspanel.yaml** "as is" for instalation (We will edit in a bit). Pay special attention to the _tft_url_ parameter and ensure it is accessible by the NSPanel.  Recommend using the www folder in your HA install
 6. Download the **HMI.tft** file and save it to the _tft_url_ location.
-7. Add the unit to Home Assistant through the ESPHome integration.
+7. Add the unit to Home Assistant through the ESPHome integration.  (If IP of NSpanel is on smae Network as Home Assisatnt it will automatically be added)
 8. Run the _esphome.nspanel_upload_tft_ service from Home Assistant. This will download the HMI to the NSPanel. Please note that this will block the ESPHome connection during the update. Follow the progress on the HMI screen. When the HMI is installed, reboot the unit.
 9. Use steps in the Configuration Section below to customize what is being displayed in the LCD
 
@@ -35,4 +35,8 @@ Any information and/or code found here is used on your own risk.
 - Edit the Below Section only
 - ![image](https://user-images.githubusercontent.com/105226208/167458091-c9e98dad-b765-484b-994f-215dea04cdb7.png)
 - Validate the Config
+- ![image](https://user-images.githubusercontent.com/105226208/167515749-e16b8ae7-78ad-47d7-bd06-dc738bcc3c8b.png)
+
 - Install Config Wirelessly
+- ![image](https://user-images.githubusercontent.com/105226208/167515817-eac48612-f259-4fe9-ae48-dd9efba9e5b0.png)
+
