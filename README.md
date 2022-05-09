@@ -20,8 +20,8 @@ In the example config a big part of the config is done in the nspanel.yaml file.
 Any information and/or code found here is used on your own risk.
 
 ## Installation
-1. Install and configure ESPHome.   
-2. Prepare the NSPanel for flashing (see MarkWattTech Video https://youtu.be/p-AK4o5jOSI).
+1. Prepare the NSPanel for flashing (see MarkWattTech Video https://youtu.be/p-AK4o5jOSI).
+2. Install and configure ESPHome.   Make sure to use the new ESPHome from teh ESPhome repo (https://esphome.io/changelog/2022.2.0.html) rather than Community Repo.
 3. Download the ESPHome sketch and adjust to your needs. Flash it to the NSPanel. Pay special attention to the _tft_url_ parameter and ensure it is accessible by the NSPanel.  Use the nspanel.yaml "as is" for instalation.
 4. Download the HMI.tft file and save it to the _tft_url_ location.
 5. Add the unit to Home Assistant through the ESPHome integration.
