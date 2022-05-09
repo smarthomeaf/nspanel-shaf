@@ -1,9 +1,9 @@
 # NSPanel-shaf
 NSPanel-shaf is based on marcfagers original work and MarkWattTech update.
 
-Thank you to @MarkWattTech for putting a Tutorial togther on how to flash the the Sonoff NSPanel (https://youtu.be/p-AK4o5jOSI).  I have taken what he has put togther and simplified the code for easier editing.   Addtioanlly, I also have created a new HMI to add addtioanl items to the the Main Page.   
+Thank you to @MarkWattTech for putting a Tutorial togther on how to flash the the Sonoff NSPanel (https://youtu.be/p-AK4o5jOSI).  I have taken what he has put togther and simplified the code for easier editing.   Addtioanlly, I also have created a new HMI to add additional items to the the Main Page.   
 
-We will work on getting a video upload to our youtube Channel https://www.youtube.com/SmartHomeAF, in the meantime use @MarkWattTech channel to get Started and use my nspanel.yaml and hmi.tft files.
+We will work on getting a video uploaded to our youtube Channel https://www.youtube.com/SmartHomeAF, but in the meantime use @MarkWattTech channel to get Started and use my nspanel.yaml and hmi.tft files instead.
 
 
 ## Credits
@@ -20,9 +20,9 @@ In the example config a big part of the config is done in the nspanel.yaml file.
 Any information and/or code found here is used on your own risk.
 
 ## Installation
-1. Install and configure ESPHome.   Use the nspanel.yaml "as is" for instalation.
+1. Install and configure ESPHome.   
 2. Prepare the NSPanel for flashing (see MarkWattTech Video https://youtu.be/p-AK4o5jOSI).
-3. Download the ESPHome sketch and adjust to your needs. Flash it to the NSPanel. Pay special attention to the _tft_url_ parameter and ensure it is accessible by the NSPanel.
+3. Download the ESPHome sketch and adjust to your needs. Flash it to the NSPanel. Pay special attention to the _tft_url_ parameter and ensure it is accessible by the NSPanel.  Use the nspanel.yaml "as is" for instalation.
 4. Download the HMI.tft file and save it to the _tft_url_ location.
 5. Add the unit to Home Assistant through the ESPHome integration.
 6. Run the _esphome.nspanel_upload_tft_ service from Home Assistant. This will download the HMI to the NSPanel. Please note that this will block the ESPHome connection during the update. Follow the progress on the HMI screen. When the HMI is installed, reboot the unit.
