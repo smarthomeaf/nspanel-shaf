@@ -49,3 +49,5 @@ Any information and/or code found here is used on your own risk.
 - Add multiple Page for Lights
 - Fix Media Player
 - Allow Panel to wake up when Physical buttons are pressed
+- Add Additional Icons for the lights Page
+- Simplify the chnaging of icons on the light page
