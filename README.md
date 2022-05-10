@@ -8,11 +8,17 @@ We will work on getting a video uploaded to our youtube Channel https://www.yout
 ![image](https://user-images.githubusercontent.com/105226208/167629981-6d6e1bf8-4546-4498-a08c-afecd9e09c93.png)
 
 1 - Temp Outsdie based on Weather integration
+
 2 - Temp Outside based on Sensor
+
 3 - Display whatver you want (example is House Mode)
+
 4 - Display anything you want (Mean Temp on 1st Floor)
+
 5 - Temp as recorded by NSPanel
+
 6 - Status of any Lock (taping Status will lock Door)
+
 
 
 
