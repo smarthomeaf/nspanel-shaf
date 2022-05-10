@@ -60,6 +60,7 @@ Any information and/or code found here is used on your own risk.
 - Only single page of lights is currently available
 - Media Player is CUrrently not working
 - Pressing physical buttons does not currenty wake up panel
+- Currently only configured for 3 Lights in the light page
 
 ## To Do's
 - Add multiple Page for Lights
@@ -68,4 +69,5 @@ Any information and/or code found here is used on your own risk.
 - Add Additional Icons for the lights Page
 - Simplify the changing of icons on the light page
 - Create a Portrait HMI
+- Add all 8 buttons on the Lights page
 - 
