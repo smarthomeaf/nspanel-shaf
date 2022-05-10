@@ -66,4 +66,6 @@ Any information and/or code found here is used on your own risk.
 - Fix Media Player
 - Allow Panel to wake up when Physical buttons are pressed
 - Add Additional Icons for the lights Page
-- Simplify the chnaging of icons on the light page
+- Simplify the changing of icons on the light page
+- Create a Portrait HMI
+- 
