@@ -40,3 +40,12 @@ Any information and/or code found here is used on your own risk.
 - Install Config Wirelessly
 - ![image](https://user-images.githubusercontent.com/105226208/167515817-eac48612-f259-4fe9-ae48-dd9efba9e5b0.png)
 
+## Known Limitations
+- Only single page of lights is currently available
+- Media Player is CUrrently not working
+- Pressing physical buttons does not currenty wake up panel
+
+## To Do's
+- Add multiple Page for Lights
+- Fix Media Player
+- Allow Panel to wake up when Physical buttons are pressed
