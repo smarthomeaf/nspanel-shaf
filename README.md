@@ -1,5 +1,5 @@
 # NSPanel-shaf
-NSPanel-shaf is based on marcfagers original work and MarkWattTech update.
+NSPanel-shaf is based on marcfagers original work and MarkWattTech update .
 
 Thank you to @MarkWattTech for putting a Tutorial togther on how to flash the the Sonoff NSPanel (https://youtu.be/p-AK4o5jOSI).  I have taken what he has put togther and simplified the code for easier editing.   Addtioanlly, I also have created a new HMI to add additional items to the the Main Page.   
 
